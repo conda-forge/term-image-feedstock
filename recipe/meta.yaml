@@ -11,7 +11,7 @@ source:
 
 build:
   entry_points:
-    - term-img=term_img.__main__:main
+    - term-image=term_image.__main__:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
@@ -31,7 +31,7 @@ test:
     - term_img
   commands:
     - pip check
-    - term-img --help
+    - term-image --help
   requires:
     - pip
 
