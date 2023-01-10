@@ -28,7 +28,7 @@ requirements:
 
 test:
   imports:
-    - term_img
+    - term_image
   commands:
     - pip check
     - term-image --help
