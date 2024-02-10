@@ -1,5 +1,5 @@
 {% set name = "term-image" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/term-image-{{ version }}.tar.gz
-  sha256: d62d85b62b58a90576b2dc22478aeee7eb71bfac169862a0abc94c9f494c8b0c
+  sha256: 607456bd0496dc9ae4925477d239c7d012ef857a31b2317f1f5455c417190b0b
 
 build:
   noarch: python
